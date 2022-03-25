@@ -1,0 +1,46 @@
+#time {
+    text-align: right;
+}
+
+body {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: darkturquoise;
+}
+
+#sketch_name {
+    color: red;
+}
+
+h1 {
+    color: rgb(38, 0, 255);
+    background-color: cornsilk;
+}
+
+#show_sketch {
+    float: left;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 12px 12px 2px 1px grey;
+    }
+
+    to {
+        box-shadow: 12px 12px 2px 1px grey;
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
